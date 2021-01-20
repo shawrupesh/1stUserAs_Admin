@@ -1,26 +1,24 @@
-# Personal_Wallet
-Personal-Wallet  Using Node.js, Express and MongoDB.
+# 1st_user as Admin
+ Using Node.js, Express and MongoDB.
 
 
 
 ## Getting Started
 Clone the repo:
-cd Personal-Wallet 
+Open folder in vs code
+
 Install all the dependecies(npm install "dependencies Name")
 Establish Mongodb database connection locally or connect with mongodb cloud
 
-Install dependencies:
-
-Set environment variables:
-
 
 ## Running Locally
-npm run dev
+1.open vs code terminal
+2. Run cmd "npm run dev"
+
+Server will run on http://localhost:3000/
+1.click on register ,fill the details 
+2.again registered with other details
+3.click on All user data
+4.click on userRoles(1st registered user will be admin and rest user as a customer)
 
 
-### First you need to Create a account
-
-### check balance (check balance with user name)
-### spend fund
-### add fund
-### all transaction
