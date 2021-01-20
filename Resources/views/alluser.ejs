@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: 200px; 
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+<table class="center">
+    <thead>
+      <tr>
+        <th>User Id</th>
+        <th>Name</th>
+        <th>email</th>
+        <th>phone</th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      <% for(var i=0; i < details.length; i++) { %>
+      <tr>
+        <td><%= details[i]._id %></td>
+        <td><%= details[i].name %></td>
+        <td><%= details[i].email %></td>
+        <td><%= details[i].phone %></td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
+</body>
